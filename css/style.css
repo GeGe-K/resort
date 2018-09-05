@@ -1,0 +1,25 @@
+html{
+  background-color: gray;
+}
+h1 {
+  color: darkred;
+  text-align: center;
+  font-size: 50px;
+}
+h3 {
+  font-style: italic;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+ul {
+  color: crimson;
+  font-size: 25px;
+  list-style: none;
+}
+body {
+  box-sizing: border-box;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: white;
+}
