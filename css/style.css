@@ -1,3 +1,14 @@
+.column {
+    float: left;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 html{
   background-color: gray;
 }
@@ -5,6 +16,7 @@ h1 {
   color: darkred;
   text-align: center;
   font-size: 50px;
+  box-sizing: border-box;
 }
 h3 {
   font-style: italic;
@@ -12,14 +24,23 @@ h3 {
   color: black;
   font-size: 30px;
 }
-ul {
-  color: crimson;
-  font-size: 25px;
-  list-style: none;
+#about   {
+  color: black;
+  font-size: 15px;
+
 }
+#banner nav ul li{
+  text-align:right;
+  display: inline-block;
+  list-style: none;
+
+
+}
+
 body {
   box-sizing: border-box;
   margin-left: 150px;
   margin-right: 150px;
   background-color: white;
+
 }
